@@ -1,0 +1,1 @@
+java -Xmx200M -cp target/classes com.blink.search.Search $@
