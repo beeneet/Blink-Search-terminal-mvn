@@ -123,7 +123,7 @@ public class Query {
 	public List<String> getFilenameList(List<Integer> list1){
 	List<String> stringOfFilenames = new ArrayList<String>();
 	for (int i = 0; i < list1.size(); i++){
-    	stringOfFilenames.add(docDict.get(list1.get(i)));
+    	stringOfFilenames.add("https://github.com/beeneet/Blink-Search-terminal-mvn/tree/master/data/" + docDict.get(list1.get(i)));
     }
     return stringOfFilenames;
 	}
